@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface Dao {
+    //在网页修改
 
     public Book selectbyid(@Param("id") int id);
 }
